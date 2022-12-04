@@ -3,7 +3,7 @@ import random as rd
 lists = [[True, False, False], [False, True, False], [False, False, True]]
 #Creating the list of the different configurations behind the doors
 
-def mounty():
+def monty():
     
     successIndex = rd.randint(0, 2)
     successList = lists[successIndex]
@@ -79,5 +79,8 @@ def mounty():
     print('\n\n\n')
     #Finalising the game and opening all the door.
 
-    mounty()
+    monty()
     #Restarting the game.
+    
+monty()
+#Calling the function.
