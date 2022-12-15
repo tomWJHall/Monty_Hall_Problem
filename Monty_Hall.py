@@ -18,7 +18,7 @@ def monty():
     
     if(not(inputIndex in [0, 1, 2])):
         print("Incorrect input. Try Again: ", end='\n\n')
-        mounty()
+        monty()
         
     print("You chose: ", inputIndex + 1, end='\n\n')
     #Asking the user to choose the door they think has a car behind it.
